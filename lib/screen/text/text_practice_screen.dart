@@ -9,7 +9,7 @@ class TextPracticeScreen extends StatelessWidget {
       appBar: AppBar(title: Text('Text 실습'),),
       body: Column(
         children: [
-          Text('Text 위젯 실습입니다. 색상은 deepOrange',
+          Text('Text 위젯 실습입니다. 색상은 deepOrange입니다',
             style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold, color:
             Colors.deepOrange, letterSpacing: 2.5),
             maxLines: 1, overflow: TextOverflow.ellipsis,
