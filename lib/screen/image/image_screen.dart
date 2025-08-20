@@ -46,6 +46,7 @@ class ImageScreen extends StatelessWidget {
                   fit: BoxFit.cover, //가로세로 상관없이 주어진 크기에 맞춰서 확대됨
                   alignment: Alignment.topLeft,),
               ),
+              SizedBox(height: 150, width: 150, child: Image.asset('assets/lecture_flutter_image.png')),
             ],
           ),
         ),
