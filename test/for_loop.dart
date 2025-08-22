@@ -3,6 +3,7 @@ class ForLoop {
     normalForLoop();
     enhancedForLoop();
     forEachForLoop();
+    practice();
   }
   void normalForLoop(){
 
@@ -29,6 +30,19 @@ class ForLoop {
 
     ageList.forEach((element){
       print('forEachForLoop : $element');
+    });
+  }
+
+  void practice(){
+    List<double> practiceList = [0.1, 0.2, 0.3, 0.4, 0.5];
+    for(int i = 0; i < practiceList.length; i++){
+      print('practiceFor : ${practiceList[i]}');
+    }
+    for(double value in practiceList){
+      print('practiceEnhanced : $value');
+    }
+    practiceList.forEach((element){
+      print('practiceForEach : $element');
     });
   }
 }
